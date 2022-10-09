@@ -1,0 +1,1 @@
+(()=>{document.querySelectorAll(".js-scroll-link").forEach(t=>{t.addEventListener("click",function(t){t.preventDefault(),function(t,e){if(e&&window.getWindowWidth()>window.MOBILE_WIDTH)return;const n=t.getAttribute("href").substring(1);if(Boolean(n)){const t=document.getElementById(n).getBoundingClientRect().top;window.scrollBy({top:t,behavior:"smooth"})}}(this,!1)})})})();
